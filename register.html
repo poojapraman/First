@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Register</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style type="text/css">
+/* For device width smaller than 400px: */
+body {
+  background-image: url(tech1.jpg);
+  background-repeat: no-repeat;
+  background-size: 60% 70%;
+  backface-visibility: hidden;
+  background-attachment: fixed;
+  background-position:center center;
+
+}
+
+#myCarousel{
+    float:left;
+    position: absolute;
+    top:100px;
+    right:80px;
+    
+}
+
+ .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 12%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+
+
+
+</style>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-cloud"></span>WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Careers</a></li>
+      <li><a href="#">Products</a></li>
+    </ul>
+  </div>
+</nav>
+<form>
+  <div class="container-fluid">
+    <div class="row col-md-6">
+        <div class="form-group">
+          <label for="First name">First Name:</label>
+          <input type="text" class="form-control" id="fn" placeholder="First name">
+        </div>
+
+        <div class="form-group">
+          <label for="Middle name">Middle Name:</label>
+          <input type="text" class="form-control" id="mn" placeholder="Middle name">
+        </div>
+
+        <div class="form-group">
+          <label for="Last name">Last Name:</label>
+          <input type="text" class="form-control" id="ln" placeholder="Last name">
+        </div>
+
+        <div class="form-group">
+          <label for="Email">Email:</label>
+          <input type="text" class="form-control" id="email" placeholder=example@gmail.com>
+        </div>
+
+        <div class="form-group">
+          <label for="Password">Password:</label>
+          <input type="password" class="form-control" id="pwd" placeholder="Password">
+        </div>
+
+        <div class="row">
+          <div class="form-group col-md-4">
+            <label for="City">City:</label>
+            <input type="text" class="form-control" id="city" placeholder="Eg: Bangalore">
+          </div>
+        
+
+          <div class="form-group col-md-4">
+            <label for="State">State:</label>
+            <input type="text" class="form-control" id="state" placeholder="Eg: Karnataka">
+          </div>
+
+          <div class="form-group col-md-4">
+            <label for="Zip">Zip:</label>
+            <input type="text" class="form-control" id="zip" placeholder="Zipcode/Pincode">
+          </div>
+        </div>
+
+    </div>
+
+    </div>
+    
+      <div class="col-md-4">
+        <button type="submit" class="btn btn-primary">  Register</button>
+      </div>
+    </div>
+
+</form> 
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="carousal1.png">
+    </div>
+
+    <div class="item">
+      <img src="carousal2.png">
+    </div>
+
+    <div class="item">
+      <img src="carousal3.png">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<div class="container-fluid">
+  <div class="footer">
+    <div class="row">
+      <div class="col-sm-3">contact info</div>
+      <div class="col-sm-6">
+        
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-youtube"></a>
+      </div>
+      <div class="col-sm-3">copyright info</div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
